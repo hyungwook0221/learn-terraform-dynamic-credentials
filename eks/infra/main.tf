@@ -11,7 +11,7 @@ provider "kubernetes" {
 
 resource "kubernetes_config_map" "test" {
   metadata {
-    name = "new-hyungwook"
+    name = "user-hyungwook"
   }
 
   data = {
