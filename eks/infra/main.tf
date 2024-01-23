@@ -15,6 +15,6 @@ resource "kubernetes_config_map" "test" {
   }
 
   data = {
-    "foo" = "bar"
+    "name" = "hyungwook"
   }
 }
